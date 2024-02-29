@@ -1,0 +1,153 @@
+
+h1 
+{
+  color: rgb(30, 121, 177);
+  font-size: 30px;
+  margin: 40px;
+}
+
+.task-list 
+{
+  background: lightgray;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 40px;
+}
+
+.taskbar 
+{ margin-bottom: 40px; }
+
+.add-task 
+{
+  color: black;
+  border: 2px solid rgb(30, 141, 177);
+  background: transparent;
+  outline: none;
+  width: 50%;
+  padding: 14px;
+}
+
+.add-task::placeholder 
+{ color: black; }
+
+.add-btn 
+{
+  color: white;
+  background: rgb(30, 141, 177);
+  padding: 14px;
+  border: solid white; 
+  opacity: 1;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.add-btn:hover 
+{ opacity: 0.7; }
+
+.incomplete-task 
+{
+  color: black;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 10px auto;
+  padding: 15px;
+  display: flex;
+
+  background: rgb(172, 194, 202);
+}
+
+.sub-task
+{
+
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 10px auto;
+    padding: 15px;
+    display: flex;
+
+    background: rgb(172, 188, 202);
+}
+
+/* .incomplete-task:nth-child(odd)
+{ background: rgb(172, 194, 202); }
+
+.incomplete-task:nth-child(even)
+{ background: rgb(172, 188, 202); } */
+
+
+.completed-task 
+{
+  color: black;
+  text-decoration: line-through;
+  opacity: 0.7;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 10px auto;
+  display: flex;
+}
+
+.edit-task 
+{
+  color: black;
+  border: 2px solid rgb(30, 141, 177);
+  background: transparent;
+  outline: none;
+  width: 48%;
+  padding: 14px;
+}
+
+.edit-btn 
+{
+  color: white;
+  background: rgb(30, 141, 177);
+  padding: 16px;
+  border: none;
+  opacity: 1;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.edit-btn:hover 
+{ opacity: 0.7; }
+
+.icons 
+{
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+}
+
+.incomplete-icon
+{
+  color: rgb(107, 103, 103);
+  margin-right: 15px;
+}
+
+.complete-icon
+{
+  color: rgb(107, 103, 103);
+  margin-right: 15px;
+}
+
+.edit-icon 
+{ color: rgb(107, 103, 103); }
+
+.delete-icon 
+{ 
+  color: rgb(107, 103, 103); 
+  margin-left: 10px; 
+}
+
+
+
+
+
+
+
+
